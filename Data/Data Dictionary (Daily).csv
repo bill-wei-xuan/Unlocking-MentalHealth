@@ -1,0 +1,176 @@
+Variable,Feature Availability -- Android/iOS/All ,Description,Variable Unit,Time Period
+uid,All,Unique user ID,,
+is_ios,All,Boolean indicating whether the user is an iOS user (1) or an Android user (0),0 or 1 -- no unit,
+day,All,Date in the format YYYYMMDD,,
+act_in_vehicle_ep_0,All,Activity duration in vehicle,seconds,full day
+act_in_vehicle_ep_1,All,Activity duration in vehicle,seconds,12am-9am
+act_in_vehicle_ep_2,All,Activity duration in vehicle,seconds,9am-6pm
+act_in_vehicle_ep_3,All,Activity duration in vehicle,seconds,6pm-12am
+act_on_bike_ep_0,All,Activity duration on bike,seconds,full day
+act_on_bike_ep_1,All,Activity duration on bike,seconds,12am-9am
+act_on_bike_ep_2,All,Activity duration on bike,seconds,9am-6pm
+act_on_bike_ep_3,All,Activity duration on bike,seconds,6pm-12am
+act_on_foot_ep_0,Android only,Activity duration on foot ,seconds,full day
+act_on_foot_ep_1,Android only,Activity duration on foot,seconds,12am-9am
+act_on_foot_ep_2,Android only,Activity duration on foot ,seconds,9am-6pm
+act_on_foot_ep_3,Android only,Activity duration on foot ,seconds,6pm-12am
+act_running_ep_0,iOS only,Activity duration running,seconds,full day
+act_running_ep_1,iOS only,Activity duration running ,seconds,12am-9am
+act_running_ep_2,iOS only,Activity duration running ,seconds,9am-6pm
+act_running_ep_3,iOS only,Activity duration running ,seconds,6pm-12am
+act_still_ep_0,All,Activity duration still (no movement),seconds,full day
+act_still_ep_1,All,Activity duration still (no movement),seconds,12am-9am
+act_still_ep_2,All,Activity duration still (no movement),seconds,9am-6pm
+act_still_ep_3,All,Activity duration still (no movement),seconds,6pm-12am
+act_walking_ep_0,iOS only,Activity duration walking ,seconds,full day
+act_walking_ep_1,iOS only,Activity duration walking,seconds,12am-9am
+act_walking_ep_2,iOS only,Activity duration walking,seconds,9am-6pm
+act_walking_ep_3,iOS only,Activity duration walking,seconds,6pm-12am
+audio_amp_mean_ep_0,Android only,Mean audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",full day
+audio_amp_mean_ep_1,Android only,Mean audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",12am-9am
+audio_amp_mean_ep_2,Android only,Mean audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",9am-6pm
+audio_amp_mean_ep_3,Android only,Mean audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",6pm-12am
+audio_amp_std_ep_0,Android only,Standard deviation of audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",full day
+audio_amp_std_ep_1,Android only,Standard deviation of audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",12am-9am
+audio_amp_std_ep_2,Android only,Standard deviation of audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",9am-6pm
+audio_amp_std_ep_3,Android only,Standard deviation of audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",6pm-12am
+audio_convo_duration_ep_0,Android only,Duration of detected conversations,seconds,full day
+audio_convo_duration_ep_1,Android only,Duration of detected conversations,seconds,12am-9am
+audio_convo_duration_ep_2,Android only,Duration of detected conversations,seconds,9am-6pm
+audio_convo_duration_ep_3,Android only,Duration of detected conversations,seconds,6pm-12am
+audio_convo_num_ep_0,Android only,Number of detected conversations,,full day
+audio_convo_num_ep_1,Android only,Number of detected conversations,,12am-9am
+audio_convo_num_ep_2,Android only,Number of detected conversations,,9am-6pm
+audio_convo_num_ep_3,Android only,Number of detected conversations,,6pm-12am
+audio_voice_ep_0,Android only,"Ratio of detection of voice to number of inferences made during the period. Basically, it indicates of all the inferences made during this specific period, how much percentage of it had voice present (as opposed to noise). ",,full day
+audio_voice_ep_1,Android only,"Ratio of detection of voice to number of inferences made during the period. Basically, it indicates of all the inferences made during this specific period, how much percentage of it had voice present (as opposed to noise). ",,12am-9am
+audio_voice_ep_2,Android only,"Ratio of detection of voice to number of inferences made during the period. Basically, it indicates of all the inferences made during this specific period, how much percentage of it had voice present (as opposed to noise). ",,9am-6pm
+audio_voice_ep_3,Android only,"Ratio of detection of voice to number of inferences made during the period. Basically, it indicates of all the inferences made during this specific period, how much percentage of it had voice present (as opposed to noise). ",,6pm-12am
+call_in_duration_ep_0,Android only,Duration of incoming call,seconds ,full day
+call_in_duration_ep_1,Android only,Duration of incoming call,seconds ,12am-9am
+call_in_duration_ep_2,Android only,Duration of incoming call,seconds ,9am-6pm
+call_in_duration_ep_3,Android only,Duration of incoming call,seconds ,6pm-12am
+call_in_num_ep_0,Android only,Number of incoming calls,,full day
+call_in_num_ep_1,Android only,Number of incoming calls,,12am-9am
+call_in_num_ep_2,Android only,Number of incoming calls,,9am-6pm
+call_in_num_ep_3,Android only,Number of incoming calls,,6pm-12am
+call_miss_num_ep_0,Android only,Number of missed calls,,full day
+call_miss_num_ep_1,Android only,Number of missed calls,,12am-9am
+call_miss_num_ep_2,Android only,Number of missed calls,,9am-6pm
+call_miss_num_ep_3,Android only,Number of missed calls,,6pm-12am
+call_out_duration_ep_0,Android only,Duration of outgoing calls,seconds,full day
+call_out_duration_ep_1,Android only,Duration of outgoing calls,seconds,12am-9am
+call_out_duration_ep_2,Android only,Duration of outgoing calls,seconds,9am-6pm
+call_out_duration_ep_3,Android only,Duration of outgoing calls,seconds,6pm-12am
+call_out_num_ep_0,Android only,Number of outgoing calls,,full day
+call_out_num_ep_1,Android only,Number of outgoing calls,,12am-9am
+call_out_num_ep_2,Android only,Number of outgoing calls,,9am-6pm
+call_out_num_ep_3,Android only,Number of outgoing calls,,6pm-12am
+light_mean_ep_0,Android only,Light mean amplitude,lux,full day
+light_mean_ep_1,Android only,Light mean amplitude,lux,12am-9am
+light_mean_ep_2,Android only,Light mean amplitude,lux,9am-6pm
+light_mean_ep_3,Android only,Light mean amplitude,lux,6pm-12am
+light_std_ep_0,Android only,Light amplitude standard deviation,lux,full day
+light_std_ep_1,Android only,Light amplitude standard deviation,lux,12am-9am
+light_std_ep_2,Android only,Light amplitude standard deviation,lux,9am-6pm
+light_std_ep_3,Android only,Light amplitude standard deviation,lux,6pm-12am
+loc_dist_ep_0,All,Distance traveled,meter,full day
+loc_dist_ep_1,All,Distance traveled,meter,12am-9am
+loc_dist_ep_2,All,Distance traveled,meter,9am-6pm
+loc_dist_ep_3,All,Distance traveled,meter,6pm-12am
+loc_visit_num_ep_0,All,Number of locations visited,,full day
+loc_visit_num_ep_1,All,Number of locations visited,,12am-9am
+loc_visit_num_ep_2,All,Number of locations visited,,9am-6pm
+loc_visit_num_ep_3,All,Number of locations visited,,6pm-12am
+loc_food_audio_amp,Android only,"Mean audio amplitude at location types marked food (i.e., cafeterias)","No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",full day
+loc_home_audio_amp,Android only,"Mean audio amplitude at location types marked home (i.e., it is dorm when the classes are in-term and the student is in campus, otherwise its the home location as detected by our algorithm. )","No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",full day
+loc_social_audio_amp,Android only,"Mean audio amplitude at location types marked social (i.e., dorm halls, social places etc.)","No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",full day
+loc_other_dorm_audio_amp,Android only,Mean audio amplitude at location types marked as dorms except the students' own dorm ,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",full day
+loc_self_dorm_audio_amp,Android only,Mean audio amplitude at students' own dorm,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",full day
+loc_study_audio_amp,Android only,"Mean audio amplitude at location types marked as study places (i.e., library, study halls, etc.)","No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",full day
+loc_food_audio_voice,Android only,"Average ratio of detection of voice to number of inferences made during the period at food places. This answers, for every hour on average the user was at a food place, how much percentage of it had voice present (as opposed to noise). ",,full day
+loc_home_audio_voice,Android only,"Average ratio of detection of voice to number of inferences made during the period at home. This answers, for every hour on average the user was at home, how much percentage of it had voice present (as opposed to noise). ",,full day
+loc_social_audio_voice,Android only,"Average ratio of detection of voice to number of inferences made during the period at social places. This answers, for every hour on average the user was at a social place, how much percentage of it had voice present (as opposed to noise). ",,full day
+loc_other_dorm_audio_voice,Android only,"Average ratio of detection of voice to number of inferences made during the period at others' dorm. This answers, for every hour on average the user was at others' dorm location, how much percentage of it had voice present (as opposed to noise). ",,full day
+loc_self_dorm_audio_voice,Android only,"Average ratio of detection of voice to number of inferences made during the period at own dorm. This answers, for every hour on average the user was at their own dorm, how much percentage of it had voice present (as opposed to noise). ",,full day
+loc_study_audio_voice,Android only,"Average ratio of detection of voice to number of inferences made during the period at study places. This answers, for every hour on average the user was at a study place, how much percentage of it had voice present (as opposed to noise). ",,full day
+loc_food_convo_duration,Android only,"This metric represents the average duration of detected conversations within each hour a user spends at a food location. The scale ranges from 0 to 60 minutes; for example, a score of 40 indicates that, on average, conversations were detected for 40 minutes of each hour spent at the food place.",minutes,full day
+loc_home_convo_duration,Android only,"This metric represents the average duration of detected conversations within each hour a user spends at home. The scale ranges from 0 to 60 minutes; for example, a score of 40 indicates that, on average, conversations were detected for 40 minutes of each hour spent at home.",minutes,full day
+loc_other_dorm_convo_duration,Android only,"This metric represents the average duration of detected conversations within each hour a user spends at others' dorm location. The scale ranges from 0 to 60 minutes; for example, a score of 40 indicates that, on average, conversations were detected for 40 minutes of each hour spent at others' dorm location.",minutes,full day
+loc_social_convo_duration,Android only,"This metric represents the average duration of detected conversations within each hour a user spends at a social location. The scale ranges from 0 to 60 minutes; for example, a score of 40 indicates that, on average, conversations were detected for 40 minutes of each hour spent at the social location.",minutes,full day
+loc_study_convo_duration,Android only,"This metric represents the average duration of detected conversations within each hour a user spends at a study location. The scale ranges from 0 to 60 minutes; for example, a score of 40 indicates that, on average, conversations were detected for 40 minutes of each hour spent at the study location.",minutes,full day
+loc_self_dorm_convo_duration,Android only,"This metric represents the average duration of detected conversations within each hour a user spends at dorm. The scale ranges from 0 to 60 minutes; for example, a score of 40 indicates that, on average, conversations were detected for 40 minutes of each hour spent at the dorm.",minutes,full day
+loc_food_convo_num,Android only,This metric represents the average number of detected conversation within each hour a user spends at food locations. ,,full day
+loc_other_dorm_convo_num,Android only,This metric represents the average number of detected conversation within each hour a user spends at others' dorm. ,,full day
+loc_self_dorm_convo_num,Android only,This metric represents the average number of detected conversation within each hour a user spends at their own dorm. ,,full day
+loc_social_convo_num,Android only,This metric represents the average number of detected conversation within each hour a user spends at social locations. ,,full day
+loc_study_convo_num,Android only,This metric represents the average number of detected conversation within each hour a user spends at study places. ,,full day
+loc_home_convo_num,Android only,This metric represents the average number of detected conversation within each hour a user spends at home. ,,full day
+loc_food_dur,All,Time spent at food locations,hours,full day
+loc_health_dur,All,Time spent at health locations (student clinic),hours,full day
+loc_home_dur,All,"Time spent at home (when in residence, it refers to dorm and when not in residence it is the significant place as identified by our algorithm during the night i.e., potentially their home)",hours,full day
+loc_leisure_dur,All,"Time spent at leisure places (for example, local grocery store, CVS, common ground/green etc)",hours,full day
+loc_other_dorm_dur,All,Time spent at others' dorms,hours,full day
+loc_self_dorm_dur,All,Time spent at own dorm,hours,full day
+loc_social_dur,All,Time spent at social locations,hours,full day
+loc_study_dur,All,Time spent at study locations,hours,full day
+loc_workout_dur,All,"Time spent at workout locations (sport center, football field, gym etc.)",hours,full day
+loc_worship_dur,All,"Time spent at religious places on campus (church, chapel etc.)",hours,full day
+loc_food_still,All,"This metric measures the average amount of time, expressed in minutes, that a user remains stationary within each hour spent at a food location. The value can range from 0 to 60 minutes. For instance, a value of 40 indicates that, on average, the user was still for 40 minutes of every hour they were at the food location.",minutes,full day
+loc_home_still,All,"This metric measures the average amount of time, expressed in minutes, that a user remains stationary within each hour spent at home. The value can range from 0 to 60 minutes. For instance, a value of 40 indicates that, on average, the user was still for 40 minutes of every hour they were at their home.",minutes,full day
+loc_other_dorm_still,All,"This metric measures the average amount of time, expressed in minutes, that a user remains stationary within each hour spent at others' dorms. The value can range from 0 to 60 minutes. For instance, a value of 40 indicates that, on average, the user was still for 40 minutes of every hour they were at others' dorms.",minutes,full day
+loc_self_dorm_still,All,"This metric measures the average amount of time, expressed in minutes, that a user remains stationary within each hour spent at their own dorm. The value can range from 0 to 60 minutes. For instance, a value of 40 indicates that, on average, the user was still for 40 minutes of every hour they were at their own dorm.",minutes,full day
+loc_social_still,All,"This metric measures the average amount of time, expressed in minutes, that a user remains stationary within each hour spent at a social location. The value can range from 0 to 60 minutes. For instance, a value of 40 indicates that, on average, the user was still for 40 minutes of every hour they were at a social location.",minutes,full day
+loc_study_still,All,"This metric measures the average amount of time, expressed in minutes, that a user remains stationary within each hour spent at a study location. The value can range from 0 to 60 minutes. For instance, a value of 40 indicates that, on average, the user was still for 40 minutes of every hour they were at a study location.",minutes,full day
+loc_food_unlock_duration,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration) within each hour spent at a food location. The value can range from 0 to 60 minutes. A value of 40, for instance, indicates that, on average, the user was using phone for 40 minutes of every hour they were at a food location. ",minutes,full day
+loc_home_unlock_duration,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration) within each hour spent at home. The value can range from 0 to 60 minutes. A value of 40, for instance, indicates that, on average, the user was using phone for 40 minutes of every hour they were at home.",minutes,full day
+loc_other_dorm_unlock_duration,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration) within each hour spent at others' dorm. The value can range from 0 to 60 minutes. A value of 40, for instance, indicates that, on average, the user was using phone for 40 minutes of every hour they were at others' dorm.",minutes,full day
+loc_self_dorm_unlock_duration,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration) within each hour spent at their own dorm. The value can range from 0 to 60 minutes. A value of 40, for instance, indicates that, on average, the user was using phone for 40 minutes of every hour they were at their own dorm.",minutes,full day
+loc_social_unlock_duration,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration) within each hour spent at a social location. The value can range from 0 to 60 minutes. A value of 40, for instance, indicates that, on average, the user was using phone for 40 minutes of every hour they were at a social location. ",minutes,full day
+loc_study_unlock_duration,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration) within each hour spent at a study location. The value can range from 0 to 60 minutes. A value of 40, for instance, indicates that, on average, the user was using phone for 40 minutes of every hour they were at a study location. ",minutes,full day
+loc_food_unlock_num,All,Average number of times the user unlocks the phone within each hour spent at a food location. ,,full day
+loc_home_unlock_num,All,Average number of times the user unlocks the phone within each hour spent at home.,,full day
+loc_other_dorm_unlock_num,All,Average number of times the user unlocks the phone within each hour spent at others' dorm.,,full day
+loc_self_dorm_unlock_num,All,Average number of times the user unlocks the phone within each hour spent at their own dorm.,,full day
+loc_social_unlock_num,All,Average number of times the user unlocks the phone within each hour spent at a social location.,,full day
+loc_study_unlock_num,All,Average number of times the user unlocks the phone within each hour spent at a study location. ,,full day
+loc_max_dis_from_campus_ep_0,All,Maximum distance travelled away from campus,meters,full day
+loc_max_dis_from_campus_ep_1,All,Maximum distance travelled away from campus,meters,12am-9am
+loc_max_dis_from_campus_ep_2,All,Maximum distance travelled away from campus,meters,9am-6pm
+loc_max_dis_from_campus_ep_3,All,Maximum distance travelled away from campus,meters,6pm-12am
+other_playing_duration_ep_0,iOS only,"This metric tracks the total length of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the cumulative time spent on audio playback.",seconds,full day
+other_playing_duration_ep_1,iOS only,"This metric tracks the total length of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the cumulative time spent on audio playback.",seconds,12am-9am
+other_playing_duration_ep_2,iOS only,"This metric tracks the total length of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the cumulative time spent on audio playback.",seconds,9am-6pm
+other_playing_duration_ep_3,iOS only,"This metric tracks the total length of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the cumulative time spent on audio playback.",seconds,6pm-12am
+other_playing_num_ep_0,iOS only,"This metric tracks the frequency of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the number of times audio was played.",,full day
+other_playing_num_ep_1,iOS only,"This metric tracks the frequency of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the number of times audio was played.",,12am-9am
+other_playing_num_ep_2,iOS only,"This metric tracks the frequency of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the number of times audio was played.",,9am-6pm
+other_playing_num_ep_3,iOS only,"This metric tracks the frequency of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the number of times audio was played.",,6pm-12am
+quality_activity,All,Quality of activity data (max=24),hours,full day
+quality_audio,Android only,Quality of audio data (max=24),hours,full day
+quality_light,Android only,Quality of light data (max=24),hours,full day
+quality_loc,All,Quality of location data (max=24),hours,full day
+sleep_duration,All,Sleep duration (based on our predictive model https://dl.acm.org/doi/10.4108/icst.pervasivehealth.2013.252148 ),hours,full day
+sleep_end,All,Sleep end time,"This metric measures time in 7.5-hour epochs starting at 8 PM. For example, a value of ""0"" corresponds to 8 PM, and increments are based on this starting point. If the value is ""40"", it translates to 5.33 hours (40 divided by 7.5) after 8 PM, making it approximately 1:20 AM (i.e, 7.5 (9 PM) + 7.5 (10 PM) + 7.5 (11 PM) + 7.5 (12 AM) + 7.5 (1 AM) == 37.5. Now remaining 2.5 is equal to 20 minutes.)",full day
+sleep_start,All,Sleep start time,"This metric measures time in 7.5-hour epochs starting at 8 PM. For example, a value of ""0"" corresponds to 8 PM, and increments are based on this starting point. If the value is ""40"", it translates to 5.33 hours (40 divided by 7.5) after 8 PM, making it approximately 1:20 AM",full day
+sms_in_num_ep_0,Android only,Number of incoming SMS,,full day
+sms_in_num_ep_1,Android only,Number of incoming SMS,,12am-9am
+sms_in_num_ep_2,Android only,Number of incoming SMS,,9am-6pm
+sms_in_num_ep_3,Android only,Number of incoming SMS,,6pm-12am
+sms_out_num_ep_0,Android only,Number of outgoing SMS,,full day
+sms_out_num_ep_1,Android only,Number of outgoing SMS,,12am-9am
+sms_out_num_ep_2,Android only,Number of outgoing SMS,,9am-6pm
+sms_out_num_ep_3,Android only,Number of outgoing SMS,,6pm-12am
+unlock_duration_ep_0,All,"Amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration)",seconds,full day
+unlock_duration_ep_1,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration)",seconds,12am-9am
+unlock_duration_ep_2,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration)",seconds,9am-6pm
+unlock_duration_ep_3,All,"Average amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration)",seconds,6pm-12am
+unlock_num_ep_0,All,Number of lock/unlocks,,full day
+unlock_num_ep_1,All,Number of lock/unlocks,,12am-9am
+unlock_num_ep_2,All,Number of lock/unlocks,,9am-6pm
+unlock_num_ep_3,All,Number of lock/unlocks,,6pm-12am
+sleep_heathkit_dur,iOS only,Sleep duration (based on iOS health kit),hours,full day
+step_ep_0,iOS only,Number of steps,,full day
+step_ep_1,iOS only,Number of steps,,12am-9am
+step_ep_2,iOS only,Number of steps,,9am-6pm
+step_ep_3,iOS only,Number of steps,,6pm-12am

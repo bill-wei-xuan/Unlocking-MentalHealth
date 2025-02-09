@@ -1,0 +1,25 @@
+Variable,Feature Availability -- Android/iOS/All ,Description,Variable Unit,Time Period
+uid,All,Unique user ID,,
+is_ios,All,Boolean indicating whether the user is an iOS user (1) or an Android user (0),0 or 1 -- no unit,
+day,All,Date in the format YYYYMMDD,,
+act_in_vehicle_hr_*,All,"Activity duration in vehicle (* reflects numbers from 0 to 23 referring to each hour. 0 indicates 12 AM and 23, 11 PM)",seconds,hourly
+act_on_bike_hr_*,All,Activity duration on bike,seconds,hourly
+act_on_foot_hr_*,Android only,Activity duration on foot ,seconds,hourly
+act_running_hr_*,iOS only,Activity duration running,seconds,hourly
+act_still_hr_*,All,Activity duration still (no movement),seconds,hourly
+act_walking_hr_*,iOS only,Activity duration walking ,seconds,hourly
+act_tilting_hr_*,Android only,Activity duration tilting,seconds,hourly
+act_unknown_hr_*,All,Activity duration unknown,seconds,hourly
+audio_amp_mean_hr_*,Android only,Mean audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",hourly
+audio_amp_std_hr_*,Android only,Standard deviation of audio amplitude,"No unit. The values are NOT RELATED to any concrete calibrated physical property. The values are therefore, just 16-bit digitalisation of electrical output from 0-100% (maximum voltage range of that microphone).",hourly
+audio_convo_duration_hr_*,Android only,Duration of detected conversations,seconds,hourly
+audio_convo_num_hr_*,Android only,Number of detected conversations,,hourly
+audio_voice_hr_*,Android only,"Ratio of detection of voice to number of inferences made during the period. Basically, it indicates of all the inferences made during this specific period, how much percentage of it had voice present (as opposed to noise). ",,hourly
+loc_dist_hr_*,All,Distance traveled,meter,hourly
+loc_max_dis_from_campus_hr_*,All,Maximum distance travelled away from campus,meters,hourly
+loc_visit_num_hr_*,All,Number of locations visited,,hourly
+other_playing_duration_hr_*,iOS only,"This metric tracks the total length of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the cumulative time spent on audio playback.",seconds,hourly
+other_playing_num_hr_*,iOS only,"This metric tracks the frequency of audio sessions, including any form of audio-based media like music or video, being played on the phone. It tallies the number of times audio was played.",,hourly
+unlock_duration_hr_*,All,"Amount of time that a user uses the phone in unlocked state (i.e., total phone usage duration)",seconds,hourly
+unlock_num_hr_*,All,Number of lock/unlocks,,hourly
+step_hr_*,iOS only,Number of steps,,hourly

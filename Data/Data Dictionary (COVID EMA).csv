@@ -1,0 +1,73 @@
+Variable,Feature Availability -- Android/iOS/All ,Description,Range,Standard Survey?
+uid,All,Unique user ID,,
+day,All,Date in the format YYYYMMDD,,
+COVID-1,All,How concerned are you about COVID-19?,"1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Extremely",No
+COVID-2,All,How much has the COVID-19 situation impacted your day to day activities in the last week?,"1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Very much",No
+COVID-3,All,How much have you changed your behaviors in response to the COVID-19 situation in the last week?,"1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Very much",No
+COVID-4,All,How concerned are you for yourself regarding COVID-19?,"1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Extremely",No
+COVID-5,All,How concerned are you for your classmates regarding COVID-19?,"1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Extremely",No
+COVID-6,All,How concerned are you for your family regarding COVID-19?,"1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Extremely",No
+COVID-7,All,"How concerned are you about obtaining food, supplies, etc.? ","1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Extremely",No
+COVID-8,All,How supported do you feel?,"1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Extremely",No
+COVID-9,All,How much have you supported others?,"1: Not at All;
+2;
+3;
+4: Somewhat;
+5;
+6;
+7: Very much",No
+COVID-10,All,Is your social media usage: 1 (much less than normal) - 7 (much more than normal),"1: Much less than normal;
+2;
+3;
+4: Normal;
+5;
+6;
+7: Much more than normal",No

@@ -1,0 +1,57 @@
+Variable,Feature Availability -- Android/iOS/All ,Description,Range,Standard Survey?
+uid,All,Unique user ID,,
+day,All,Date in the format YYYYMMDD,,
+pam,All,Photographic Affect Meter scores. The user chooses an image from 16 pictures. And the valence and arousal are calculated based on the rubric mentioned here: https://dl.acm.org/doi/10.1145/1978942.1979047,1 to 16,Yes. Photographic Affect Meter.
+phq4-1,All,"Over the last 2 weeks, how often have you been bothered by the following problems? Feeling nervous, anxious or on edge","0: Not at all;
+1: Several days;
+2: More than half the days;
+3: Nearly every day",Yes. Patient Health Questionnaire 4.
+phq4-2,All,"Over the last 2 weeks, how often have you been bothered by the following problems? Not being able to stop or control worrying","0: Not at all;
+1: Several days;
+2: More than half the days;
+3: Nearly every day",Yes. Patient Health Questionnaire 4.
+phq4-3,All,"Over the last 2 weeks, how often have you been bothered by the following problems? Feeling down, depressed or hopeless;","0: Not at all;
+1: Several days;
+2: More than half the days;
+3: Nearly every day",Yes. Patient Health Questionnaire 4.
+phq4-4,All,"Over the last 2 weeks, how often have you been bothered by the following problems? Little interest or pleasure in doing things","0: Not at all;
+1: Several days;
+2: More than half the days;
+3: Nearly every day",Yes. Patient Health Questionnaire 4.
+phq4_resp_mean,All,Mean time spent on PHQ4 EMAs (in seconds),,
+phq4_resp_median,All,Median time spent on PHQ4 EMAs (in seconds),,
+phq4_score,All,Aggregated PHQ4 Score (Sum of PHQ4-1 to PHQ4-4),,
+social_level,All,Have you spent most of your time alone or with others today?,"1: Almost always alone;
+2: Mostly alone, a little time with others;
+3: Equal amounts of time alone and with others;
+4: Mostly with others, a little time alone;
+5: Almost always with others
+",No.
+sse3-1,All,"Right now, I worry about what other people think of me.","1: Not at All;
+2: A Little Bit;
+3: Somewhat;
+4: Very Much;
+5: Extremely",Yes. State Self-Esteem Scale.
+sse3-2,All,"Right now, I am pleased with my appearance.","1: Not at All;
+2: A Little Bit;
+3: Somewhat;
+4: Very Much;
+5: Extremely",Yes. State Self-Esteem Scale.
+sse3-3,All,"Right now, I feel as smart as others.","1: Not at All;
+2: A Little Bit;
+3: Somewhat;
+4: Very Much;
+5: Extremely",Yes. State Self-Esteem Scale.
+sse3-4,All,"Right now, Overall, I feel good about myself.","1: Not at All;
+2: A Little Bit;
+3: Somewhat;
+4: Very Much;
+5: Extremely",Yes. State Self-Esteem Scale.
+sse3_resp_mean,All,Mean time spent on self-esteem EMAs (in seconds),,
+sse3_resp_median,All,Median time spent on self-esteem EMAs (in seconds),,
+stress,All,Are you feeling stressed now?,"1: Not at All;
+2: A Little Bit;
+3: Somewhat;
+4: Very Much;
+5: Extremely",No.
+avg_ema_spent_time,All,Average time spent on the EMA (in seconds),,
