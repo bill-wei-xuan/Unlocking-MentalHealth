@@ -4,6 +4,7 @@ This repository contains a dataset and Jupyter notebooks used for analysis.
 
 ## 📂 Project Structure
 - `Data/` - Contains the dataset files.
+-    SensingData is in the release
 - `notebooks/` - Jupyter notebooks for data analysis.
 - `README.md` - Project documentation.
 
